@@ -10,6 +10,8 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         var legoset = new LegoSet();
+        legoset.setNumber("75211");
+        legoset.setUrl("https://brickset.com/sets/75211-1/Imperial-TIE-Fighter");
         legoset.setName("Imperial Tie Fighter");
         legoset.setTheme("Star Wars");
         legoset.setSubtheme("Solo");
@@ -26,6 +28,8 @@ public class Main {
         legoset.setMinifigs(minifigs);
 
         legoset.setRatings(new Ratings(468, 4.4));
+
+
 
         JAXBHelper.toXML(legoset, new FileOutputStream("legoset.xml"));
     }

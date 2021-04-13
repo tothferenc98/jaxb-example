@@ -40,4 +40,10 @@ public class LegoSet {
     private List<Minifig> minifigs;
 
     private Ratings ratings;
+
+    @XmlAttribute
+    private String number;
+
+    @XmlAttribute
+    private String url;
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<legoSet>
+<legoSet number="75211" url="https://brickset.com/sets/75211-1/Imperial-TIE-Fighter">
     <name>Imperial Tie Fighter</name>
     <theme>Star Wars</theme>
     <subtheme>Solo</subtheme>
@@ -7,10 +7,10 @@
     <pieces>519</pieces>
     <packaging>BOX</packaging>
     <tags>
-        <tag>Solo</tag>
-        <tag>Stormtrooper</tag>
         <tag>Starfighter</tag>
+        <tag>Stormtrooper</tag>
         <tag>Star Wars</tag>
+        <tag>Solo</tag>
     </tags>
     <minifigs>
         <minifig count="2">Imperial Mudtrooper</minifig>
